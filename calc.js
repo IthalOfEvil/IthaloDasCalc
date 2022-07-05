@@ -49,3 +49,4 @@
 				res.innerHTML = soma
 
 			}
+			
