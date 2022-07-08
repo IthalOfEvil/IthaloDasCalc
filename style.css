@@ -1,46 +1,44 @@
+
 body{
-			background-color: black;
-		}
+	background-image: url('josue.jpeg');
+	background-color: #cccccc;
+
+	}
 		#area{
-			background-color: deepskyblue;
-			color: white;
+			background-color: white;
 			font: normal 15pt Verdana;
+			padding: 15px;
 			width: 300px;
-			height: 80px;
 			border-radius: 10px;
+			margin: auto;
+			box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.363);
+			text-align: center;
 			
 		}
-		#but{
-			background-color: deepskyblue;
-			color: white;
-			width: 250px;
-			margin-left: 25px;
-			border-radius: 10px;
-
-		}
-		#b{
-			margin-left: 30px;
-			background-color: whitesmoke;
-			color: black;
-			transition: 1s;
-
-		}
-		a{
-			text-decoration: none;
-			color: black;
-		}
+		
 		#resultado{
+			background-color: white;
+			padding: 15px;
+			width: 250px;
+			text-align: center;
+			margin: auto;
+			border-radius: 10px;
 			margin-top: 20px;
-			color: white;
-			margin-left: 80px;
-			font: normal 10pt Verdana;
+			font: normal 20pt Verdana;
 		}
+
+
 		input[type='number']{
 
 			border-radius: 10px;
 			
 		}
-		p{
-			color: white;
-			font: normal 20pt Verdana;
+		a{
+			text-decoration: none;
+			color: black;
+
+		}
+		#b{
+			margin-top: 10px;
+			background-color: white;
 		}

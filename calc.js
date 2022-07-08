@@ -13,7 +13,7 @@
 
 				var soma = n1 + n2
 				
-				res.innerHTML += soma
+				res.innerHTML = soma.toFixed(2)
 
 			}
 
@@ -24,7 +24,7 @@
 
 				var soma = n1 - n2
 				
-				res.innerHTML = soma
+				res.innerHTML = soma.toFixed(2)
 
 			}
 
@@ -35,7 +35,7 @@
 
 				var soma = n1 * n2
 				
-				res.innerHTML = soma
+				res.innerHTML = soma.toFixed(2)
 
 			}
 
@@ -46,7 +46,7 @@
 
 				var soma = n1 / n2
 				
-				res.innerHTML = soma
+				res.innerHTML = soma.toFixed(2)
 
 			}
 			
